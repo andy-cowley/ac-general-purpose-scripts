@@ -1,6 +1,6 @@
 #!/bin/bash
 
-mkdir (modules examples tests)
+mkdir modules examples tests
 touch README.md 
 touch .gitignore
 
