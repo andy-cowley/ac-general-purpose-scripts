@@ -1,3 +1,10 @@
+#!/bin/bash
+
+mkdir modules examples tests
+touch README.md 
+touch .gitignore
+
+cat <<EOF >> .gitignore
 
 # Local .terraform directories
 **/.terraform/*
@@ -25,3 +32,5 @@ override.tf.json
 # Include override files you do wish to add to version control using negated pattern
 #
 # !example_override.tf
+EOF
+
